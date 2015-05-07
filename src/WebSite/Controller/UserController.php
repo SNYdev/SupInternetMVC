@@ -22,6 +22,11 @@ class UserController {
      *
      * @return array
      */
+
+    public function listShop(){
+        echo 'lol';
+    }
+
     public function listUserAction($request) {
         //Use Doctrine DBAL here
 

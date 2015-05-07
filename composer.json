@@ -1,11 +1,7 @@
 {
+
   "name": "ProjectName",
   "description": "Your Project",
-  "autoload": {
-    "psr-0": {"": [
-      "src/"
-    ]}
-  },
   "require": {
     "doctrine/dbal": "<2.5",
     "symfony/yaml": "2.6.*",
@@ -18,5 +14,10 @@
       "type": "composer",
       "url": "http://packages.zendframework.com/"
     }
-  ]
+  ],
+  "autoload": {
+    "psr-0": {"": [
+      "src/"
+    ]}
+  }
 }
